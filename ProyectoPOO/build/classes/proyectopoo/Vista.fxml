@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="851.0" prefWidth="1170.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller=".VistaController">
+   <children>
+      <ScrollPane layoutX="270.0" layoutY="35.0" prefHeight="808.0" prefWidth="877.0">
+         <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="808.0" prefWidth="889.0">
+               <children>
+                  <TableView prefHeight="804.0" prefWidth="854.0">
+                    <columns>
+                      <TableColumn prefWidth="105.0" text="Nombre" />
+                      <TableColumn editable="false" prefWidth="136.0" text="Apellido 1" />
+                        <TableColumn editable="false" prefWidth="108.0" text="Apellido 2" />
+                        <TableColumn editable="false" prefWidth="53.0" text="Edad" />
+                        <TableColumn editable="false" prefWidth="150.0" text="No. de inscripción" />
+                        <TableColumn editable="false" prefWidth="85.0" text="Semestre" />
+                        <TableColumn editable="false" prefWidth="104.0" text="Promedio" />
+                        <TableColumn editable="false" prefWidth="110.0" text="Escolaridad" />
+                    </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+      <SplitMenuButton layoutX="29.0" layoutY="68.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="201.0" text="Opciones" textAlignment="CENTER">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Generar datos del Alumno" />
+          <MenuItem mnemonicParsing="false" text="Calcular números de inscripción" />
+            <MenuItem mnemonicParsing="false" text="Modificar datos del alumno" />
+            <MenuItem mnemonicParsing="false" text="Exportar datos a .csv" />
+        </items>
+      </SplitMenuButton>
+      <Label layoutX="9.0" layoutY="211.0" prefHeight="53.0" prefWidth="252.0" text="  sdfsdf" />
+      <Button layoutX="100.0" layoutY="288.0" mnemonicParsing="false" text="Iniciar" />
+   </children>
+</AnchorPane>
