@@ -1,10 +1,10 @@
 # Proyecto_POO_2023-1
 Proyecto de Programación Orientada a Objetos  Grupo 1
 # Integrantes
-Aranda Solis Ricardo
-García González Alejandro
-Rodríguez Rodríguez Arturo
-Sosa Cortez Misael Ivan
+Aranda Solis Ricardo  <br />
+García González Alejandro  <br />
+Rodríguez Rodríguez Arturo  <br />
+Sosa Cortez Misael Ivan  <br />
 # Requerimentos para correr el Programa:
-*Descargar la carpeta del proyecto (ProyectoPoo)
-*Configurar el proyecto con JavaFX (GUIA: https://www.youtube.com/watch?v=ej5YrLYtLF0)
+*Descargar la carpeta del proyecto (ProyectoPoo)  <br />
+*Configurar el proyecto con JavaFX (GUIA: https://www.youtube.com/watch?v=ej5YrLYtLF0)  <br />
